@@ -1,0 +1,122 @@
+.image1 {
+    background-image: url("../images/heart-1288420_1920.jpg");
+    min-height: 100%;
+    padding: 10%;
+}
+
+.image2 {
+    background-image: url("../images/floor-1256804_1920.jpg");
+    min-height: 400px;
+
+}
+
+.image3 {
+    background-image: url("../images/lumber-84678_1920.jpg");
+    min-height: 400px;
+}
+
+.image4 {
+    background-image: url("../images/wood-3212803_1920.jpg");
+    min-height: 400px;
+}
+
+
+.image1,
+.image2,
+.image3,
+.image4 {
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    padding: 5%;
+}
+.header {
+    text-align: center;
+
+
+}
+
+.header h4 {
+    color: #fff;
+    opacity: 1.0;
+    font-weight: bold;
+    font-size: 6.0em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header a {
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header a:hover {
+    color: #1EAEDB;
+    opacity: 1.0;
+}
+
+.social {
+    text-align: center;
+}
+
+.socialMedia h4{
+    font-size: 6.0em;
+}
+
+.productImg {
+    height: 400px;
+    width: auto;
+    float: left;
+    padding-right: 10px;
+}
+#products {
+    text-align: justify;
+}
+#products h5 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    border-top: solid 1px black;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .header h4 {
+        font-size: 4.5em;
+    }
+
+    .socialMedia h4 {
+        font-size: 3.0em;
+    }
+
+    .socialImg {
+        height: 100px;
+    }
+
+    #products h5 {
+        font-size: 2.5em;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .light p {
+        font-size: 0.8em
+    }
+
+    #products p {
+        font-size: 0.8em
+    }
+
+    .productImg {
+        height: 330px;
+        width: auto;
+        float: left;
+
+    }
+}
